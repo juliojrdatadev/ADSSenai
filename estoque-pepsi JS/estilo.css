@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0, 43, 100);
+    font: normal 15pt arial;
+    background-image: url(bg-pepsi.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: -20% bottom ;
+}
+
+img#logo{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 300px;
+}
+
+section{
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.527);
+}
+
+div#campos{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+h2{
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 10px;
+    background-color: rgb(176, 176, 176);
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+span#rep {
+    background-color: darkgreen;
+    color: white;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+span#rep:hover {
+    background-color: rgb(190, 190, 190);
+    color: darkgreen;
+}
+
+span#ret {
+    background-color: darkred;
+    color: white;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+span#ret:hover {
+    background-color: rgb(190, 190, 190);
+    color: darkred;
+}
+
+input#movimento{
+    background-color:rgb(190, 190, 190);
+    font-weight: bold;
+    font-size: 1em;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button#movimentar{
+    background-color: rgb(0, 43, 100);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+    width: 250px;
+}
+
+button#movimentar:hover{
+    background-color: rgb(190, 190, 190);
+    color: rgb(0, 43, 100);
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Exercicios Tutoria 13/09</title>
+</head>
+<body>
+    <div id="ex01">
+
+        <fieldset style="width: 350px;">
+            <legend>Exercício 1</legend>
+            <h1>Conversão de Unidades</h1>
+            <p>
+                Vamos criar um algoritmo para transormar uma valor em Quilometros (Km) em Milhas.
+            </p>
+            
+            <form id="form">        
+
+                <p>Informe uma valor: <input type="number" id="distancia" placeholder="Valor / Distância"></p>
+                <p>                   
+                    <label>
+                        <span id="km"><input type="radio" name="transformar" value="km" id="km" checked>Transformar Milhas em Km</span>
+                    </label><br>
+                    <label>
+                        <span id="milha"><input type="radio" name="transformar" value="milha" id="milha">Transformar Km em Milha</span>
+                    </label>
+                </p>
+            
+            
+                <p id="button"><button type="button" id="transformar">Transformar Valor</button></p>
+            </form>    
+            
+            <p id="resultadoTransf">Resultado transformação...</p>
+            
+        </fieldset>
+
+    </div>
+
+    <div id="ex02">
+        
+        <fieldset style="width: 350px;">
+            <legend>Exercício 2</legend>
+            <h1>Calculadora de IMC</h1>
+            <p>
+                Vamos criar um algoritmo para calcular IMC.
+            </p>
+            
+            <form id="form">        
+
+                <p>
+                    Informe sua Altura: <input type="number" id="altura" placeholder="Sua Altura Ex: (1.80)"></p>
+                <p>   
+                <p>
+                    Informe Seu Peso: <input type="number" id="peso" placeholder="Seu Peso"></p>
+                <p> 
+                <p>          
+            
+                <p id="button"><button type="button" id="calcular">Calcular IMC</button></p>
+            </form>    
+            
+            <p id="resultadoImc">Resultado IMC...</p>
+            
+        </fieldset>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

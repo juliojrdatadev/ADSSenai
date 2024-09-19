@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CABO DE GUERRA</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>CABO DE GUERRA</h1>
+    </header>
+    <section>
+        <div id="jogo">
+            
+            <h3 style="text-align: center;">Quem vai começar o jogo?</h3>
+            <p style="text-align: center;">
+                <input type="radio" name="vez" id="vermelho" checked>
+                <label for="vermelho">Vermelho</label>
+                <input type="radio" name="vez" id="azul">
+                <label for="azul">Azul</label>
+            </p>
+            
+            <p style="text-align: center;"><input type="button" value=" Iniciar Jogo" id="jogar" onclick="jogar()"></p>
+            
+        </div>
+
+
+        <div id="corda">
+            
+        </div>
+
+        <div id="resultado">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

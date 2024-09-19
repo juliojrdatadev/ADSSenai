@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque Pepsi</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="sistema">
+    <header>
+        <h1>Estoque Pepsi</h1>
+    </header>
+    <section>
+        <div id="campos">
+            <h3 id="estoque">ESTOQUE</h3>
+            <p class="campos">
+                <input type="radio" name="movimento" id="repor" checked><label for="repor">Repor</label><br>
+                <input type="radio" name="movimento" id="Retirar"><label for="retirar">Retirar</label><br>
+                <input type="number" name="movimento" id="movimento">
+            </p>
+            
+            
+            <button type="submit" id="movimentar" onclick="movimentar()">MOVIMENTAR</button>
+        </div>
+        <div>
+            <p id="resultado"></p>
+        </div>
+    </section>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

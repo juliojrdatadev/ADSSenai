@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque Pepsi</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>       
+    <header>
+        <img id="logo" src="logo-pepsi.png" alt="logo-pepsi">
+    </header>
+    <section>
+        <div id="campos">
+            <h2 id="estoque">ESTOQUE</h2>
+
+            <form id="form">
+                <label>
+                    <span id="rep"><input type="radio" name="movimento" value="repor" id="repor" checked>Repor</span>
+                </label>
+             
+                <label>
+                    <span id="ret"><input type="radio" name="movimento" value="retirar" id="retirar">Retirar</span>  
+                </label>
+            
+                <input type="number" id="movimento" placeholder="Quantidade de itens">
+            
+                <p id="button"><button type="button" id="movimentar">Movimentar Estoque</button></p>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>© Julio C. S. Junior - Des. Sistemas SENAI - São Sojé SC - 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
