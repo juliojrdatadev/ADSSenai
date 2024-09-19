@@ -8,4 +8,4 @@ if(media >= 7){
     alert(`Aluno APROVADO com nota ${media.toFixed(2)}`)
 }else{
     alert(`Aluno REPROVADO com nota ${media.toFixed(2)}`)
-} fiz alteração
+}
