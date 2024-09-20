@@ -10,4 +10,4 @@ if(media >= 7){
     alert(`Aluno REPROVADO com nota ${media.toFixed(2)}`)
 }
 
-alteração
+alter
